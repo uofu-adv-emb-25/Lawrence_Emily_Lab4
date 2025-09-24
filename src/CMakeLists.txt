@@ -3,6 +3,7 @@ set(execName "signaling")
 
 add_executable(${execName}
     signaling.c
+    fifo.c
     main.c
     )
 
